@@ -38,6 +38,7 @@ jobs:
     # Optional: run a test on Windows
     - os: windows
       language: shell
+      name: Test on Windows
 
     # Deploy source distribution
     - stage: deploy
