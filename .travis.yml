@@ -44,7 +44,7 @@ jobs:
     - stage: deploy
       name: Deploy source distribution
       install: skip
-      script: python setup.py sdist --formats=targz
+      script: python setup.py sdist --formats=gztar
       # after_success: python -m twine upload dist/*.tar.gz
     # Deploy on linux
     - stage: deploy
